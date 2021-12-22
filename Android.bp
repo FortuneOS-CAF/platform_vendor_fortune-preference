@@ -1,0 +1,13 @@
+//
+// Copyright (C) 2024 FortuneOS
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_library {
+    name: "fortune-preference",
+    srcs: ["src/**/*.java"],
+    static_libs: [
+        "androidx.preference_preference",
+    ],
+}
